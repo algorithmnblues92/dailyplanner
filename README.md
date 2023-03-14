@@ -6,8 +6,9 @@ This is a template for making a daily planner, with the ability to change the da
 
 ### Screenshots
 
-![Desktop Version](assets\images\dailyplanner_desktop.png)
+![Desktop Version](assets/images/dailyplanner_desktop.png)
 
 
 ### Deployed Website Link
 
+https://algorithmnblues92.github.io/dailyplanner/
