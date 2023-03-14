@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0" />
+        <title>daily planner</title>
+        <link rel="stylesheet" href="assets\style.css" />
+        <script src="assets\script.js" defer></script>
+    </head>
+    <body>
+        <!-- <div class="scrollbox" id="previousEntries"></div> -->
+        <h1>
+            Daily Planner
+        </h1>
+
+        <h1 id="dateHolder">
+                        <button id="dateChangerBtn" onClick="monthUp()">&lt;</button>
+            <div id="monthDisplay">month</div>
+                        <button id="dateChangerBtn2" onClick="monthDown()">&gt;</button>
+                        <button id="dateChangerBtn3" onClick="dayUp()">&lt;</button>
+            <div id="dayDisplay">day</div>
+                        <button id="dateChangerBtn4" onClick="dayDown()">&gt;</button>
+                        <button id="dateChangerBtn5" onClick="yearUp()">&lt;</button>
+            <div id="yearDisplay">year</div>
+                        <button id="dateChangerBtn6" onClick="yearDown()">&gt;</button>
+        </h1>
+        <button id="clearDay" onClick="clearDayPlan()">Clear Day</button>
+        <button id="clearAll" onClick="clearAllEntries()">Clear All</button>
+
+        <!-- <div class="timeContainer">
+            <div id="timeOfDay">timeOfDay</div>
+            <div id="noteContainer">
+                <textarea id="inputContainer" placeholder="Your note here"></textarea>
+                </div>
+            <button id="saveButton">saveButton</button>
+        </div> -->
+
+    </body>
+</html>
